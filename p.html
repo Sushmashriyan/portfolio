@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        * {
+            margin: 0px;
+        }
+        
+        #nav-name {
+            padding: 0px;
+            margin: 2px;
+            float: left;
+            color: rgb(238, 255, 0);
+            font-size: x-large;
+            font-weight: bolder;
+          font-family:Arial, Helvetica, sans-serif;
+            font-family: 'Young Serif', serif;
+            font-style: oblique;
+            animation: glow-animation 4s ease-in-out infinite;
+            letter-spacing: .1rem;
+        }
+        
+        @keyframes glow-animation {
+            0% {
+                text-shadow: 0 0 5px rgb(237, 245, 245);
+            }
+            50% {
+                text-shadow: 0 0 20px rgb(223, 240, 239);
+            }
+            100% {
+                text-shadow: 0 0 5px rgb(247, 250, 250);
+            }
+        }
+        
+        nav {
+            background-color: rgb(255, 0, 140);
+            padding: 20px;
+            text-align: right;
+        }
+        
+        a {
+            color: rgb(246, 250, 5);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1rem;
+            padding: 10px;
+            font-weight:bolder;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        
+        nav a:hover {
+            background-color: rgb(230, 255, 2);
+            color: rgb(255, 0, 212);
+        }
+        
+        #main-img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 37%;
+    box-shadow: 0px 0px 20px rgba(238, 2, 238, 0.5);
+    filter: brightness(1.15) contrast(1.5);
+
+}
+        
+        @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+          background-image: linear-gradient(to bottom,rgb(243, 201, 207),rgb(247, 138, 156),rgb(236, 78, 104),rgb(218, 33, 64));
+        }
+        
+        p {
+            text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+        }
+        
+        .container {
+            color: #e5e5e5;
+            font-size: 2.26rem;
+            text-transform: uppercase;
+            height: 32vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0%;
+            padding-top: 0%;
+            margin-left:130px;
+        }
+        .container p{
+            text-shadow: 0px 0px 15px purple;
+
+
+        }
+        
+        .animation {
+            height: 50px;
+            overflow: hidden;
+            margin-left: 1rem;
+        }
+        
+        .animation>div>div {
+            padding: 0.25rem 0.75rem;
+            height: 2.81rem;
+            margin-bottom: 2.81rem;
+            display: inline-block;
+        }
+        
+        .animation div:first-child {
+            animation: text-animation 8s infinite;
+        }
+        
+        .first div {
+            background-color:#1303a3;
+        }
+        
+        .second div {
+            background-color: #fa9702;
+        }
+        
+        .third div {
+            background-color: #f50a35;
+        }
+        
+        @keyframes text-animation {
+            0% {
+                margin-top: 0;
+            }
+            10% {
+                margin-top: 0;
+            }
+            20% {
+                margin-top: -5.62rem;
+            }
+            30% {
+                margin-top: -5.62rem;
+            }
+            40% {
+                margin-top: -11.24rem;
+            }
+            60% {
+                margin-top: -11.24rem;
+            }
+            70% {
+                margin-top: -5.62rem;
+            }
+            80% {
+                margin-top: -5.62rem;
+            }
+            90% {
+                margin-top: 0;
+            }
+            100% {
+                margin-top: 0;
+            }
+        }
+        
+        .about p {
+            color: #e5e5e5;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            font-size: 1.3rem;
+        }
+        
+        .about {
+            border: 1px solid yellow;
+            box-shadow: 3px 3px 10px rgb(170, 64, 145) , -3px -3px 10px rgb(156, 63, 142);
+            margin-bottom: 30px;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding: 40px 20px;
+            clear: both;
+            background-color:rgba(255, 255, 255, .2);
+        }
+        
+        #sec-img {
+            height: 170px;
+            width: 150px;
+            float: left;
+            padding: 0;
+            margin-right: 15px;
+            filter: brightness(1.5);
+            border-radius: 10px;
+        }
+        
+        .skill {
+            margin: 20px 70px;
+        }
+        
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #e5e5e5;
+            text-transform: uppercase;
+            font-size: larger;
+            text-shadow: 0px 0px 15px purple;
+
+        }
+        
+        .progress-bar {
+            height: 25px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 1px 1px 3px white,-1px -1px 3px white;
+        }
+        
+        .progress {
+            height: 100%;
+            background-color: #e087bb;
+            animation: progress-animation 2s ease-in-out;
+        }
+        
+        .resume button:hover {
+            background-color: rgb(207, 231, 21);
+            box-shadow: 5px 5px 10px #e5e5e5;
+            color: rgb(7, 8, 8);
+        }
+        
+        .resume {
+  margin-top: 70x;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, .2);
+  margin-left: 33%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, .7), 0 0 20px rgba(255, 255, 255, .5), 0 0 30px rgba(255, 255, 255, .3);
+}
+        #c{
+            color:yellow;
+
+        }
+        .contact{
+            background-color: grey;
+            padding: 20px 20px;
+
+        }
+        .contact span{
+color: #c10528;
+font-weight: bolder;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: .2rem;
+font-size: x-large;
+        }
+        #copyright{
+            text-align: center;
+
+        }
+        .copy{
+            background-color: black;
+
+        }
+#c,#a,.skill h2{
+    text-shadow: 0px 0px 15px purple;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: x-large;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h3 id="nav-name">SUSHMA C</h3>
+        <div>
+            <a href="#">Home</a>
+            <a href="#ab">About</a>
+            <a href="#sk">Skills</a>
+            <a href="#res">Resume</a>
+            <a href="#c">Contact</a>
+        </div>
+    </nav>
+    <div class="main">
+        <img src="un2.png" alt="" id="main-img">
+        <main class="container">
+            <p>Hello 🌈 I'm</p>
+            <section class="animation">
+                <div class="first">
+                    <div>SUSHMA C</div>
+                </div>
+                <div class="second">
+                    <div>WEB DEVELOPER</div>
+                </div>
+                <div class="third">
+                    <div>COMPUTER SC. STUDENT</div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="about" id="ab">
+        <h2 id="a" style="color: yellow;text-align: center; padding-top: 0%;font-weight: bolder;font-size: xx-large;">ABOUT</h2>
+        <img src="Untitled design.png" alt="" id="sec-img">
+        <p id="about-para">I am a computer science student currently pursuing my studies at SVCE Bangalore.<br> 
+            I completed my SSLC at Stellamaris English Medium School in Gangolli and my PUC at SV Gangolli, achieving good scores.<br> 
+            I have a strong interest in new technologies and constantly strive to learn new skills.<br> 
+            As a full-stack enthusiast, I am actively seeking an internship opportunity to showcase my skills and contribute to real-world projects.<br> 
+            I am passionate about leveraging my knowledge and experience to make a positive impact in the field of technology.<br> </p>
+    </div>
+    <br><br><br><br><br>
+
+    <div class="skill" id="sk">
+        <h2 style="color: yellow;text-align: center; padding-top: 0%;font-weight: bolder;font-size: xx-large;">SKILLS</h2>
+        <div class="skill-name">HTML</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 50%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-name">C</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-name">Java</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 50%;"></div>
+        </div>
+    </div>
+    <br><br><br><br><br>   <br><br><br><br>  <br><br><br><br><br>
+
+
+    <div class="resume" style="display: flex; align-items: center; justify-content: center;">
+        <p id="res" style="text-align: center; color: yellow; margin-right: 10px;font-size: x-large;">Click to download the resume</p>
+         <a href="" download>
+            <!--link resume image here  -->
+                        <button style="padding: 13px; border-radius: 10%; font-weight: bolder; display: inline;">DOWNLOAD</button>
+        </a>
+    </div>
+    <br><br><br><br><br>
+    <div class="contact">
+        <center>
+        <h2 id="c">CONTACT</h2><br>
+        <span id="phno">tele:1234-567-890</span>&nbsp;&nbsp;<br>
+        <span id="mail">Gmail:sushmashriyan2@gmail.com</span>&nbsp;&nbsp;<br>
+        <span id="link">Linkedin:Sushmashriyan</span>
+    </center>
+    </div>   
+    </div>
+    <div class="copy">
+        <span id="copyright" style="display: block; color: white; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;">
+            Created by sushmashriyan &copy; All rights reserved | 2023
+        </span>
+    </div>
+    </body>
+</html>
